@@ -1,0 +1,212 @@
+/* GLOBAL STYLES */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+/* CONTAINER STYLES */
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER SECTION STYLES */
+.main-header {
+    padding: 24px 0;
+    background-color: #fff;
+}
+.main-header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-header__brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.logo-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32.68px;
+    color: #222;
+    margin-left: 16px;
+}
+.main-nav__item {
+    display: inline;
+    list-style: none;
+}
+.main-nav__item:not(:last-child) {
+    margin-right: 32px;
+}
+.main-nav__item a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    color: #222;
+    text-transform: uppercase;
+}
+.main-btn {
+    display: inline-block;
+    background: #de2e54;
+    border: #de2e54 solid 2px;
+    border-radius: 8px;
+    padding: 12px 24px 12px 24px;
+    font-family: 'Open Sans Condensed','Arial', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22.5px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-decoration: none;
+}
+.main-btn:hover {
+    background: #fff;
+    color: #de2e54;
+}
+.main-nav__item a:hover, .logo-text:hover {
+    color: #de2e54;
+}
+.main-btn:active {
+    opacity: 0.6;
+    background: #de2e54;
+    border: #de2e54 solid 2px;
+    color: #fff;
+}
+.main-header__brand:active, .main-nav__item:active {
+    opacity: 0.6;
+}
+
+/* HERO SECTION STYLES */
+.hero {
+    padding: 120px 0;
+    background: #0eb4c1;
+    color: #fff;
+}
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+}
+.hero__blog-wrapper {
+    width: 500px;
+}
+.hero-title {
+    font-family: 'Open Sans Condensed','Arial', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.2px;
+}
+.hero-text {
+    width: 440px;
+    margin: 16px 0 36px 0;
+}
+.hero-img {
+    margin-top: -87px;
+    margin-bottom: -120px;
+}
+
+/* SERVICES SECTION STYLES */
+.services {
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-title {
+    color: #000;
+    text-align: center;
+    font-family: 'Open Sans Condensed','Arial', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.2px;
+    margin-bottom: 56px;
+}
+.services__big-blog {
+    padding: 0 20px;
+    margin-top: 56px;
+    margin-bottom: 60px;
+}
+.services__blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.services__text-wrapper {
+    width: 600px;
+    margin-left: 64px;
+}
+.services__blog-img{
+    box-shadow: 0 12px 24px -8px rgba(0, 107, 116, 0.3);
+}
+.services__text-wrapper-title {
+    font-family: 'Open Sans Condensed','Arial', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-bottom: 24px;
+}
+.services__text-wrapper-content {
+    font-size: 16px;
+    line-height: 24px;
+    color: #444;
+}
+.services__blog:not(:last-child) {
+    margin-bottom: 80px;
+}
+.services-btn {
+    margin-top: 60px;
+}
+
+/* CTA SECTION STYLES */
+.cta {
+    padding: 64px 0;
+    background: #0eb4c1;
+    text-align: center;
+    color: #fff;
+}
+.cta-title {
+    font-family: 'Open Sans Condensed','Arial', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.2px;
+    margin-bottom: 40px;
+}
+.cta-btn {
+    line-height: 10px;
+    background: #0eb4c1;
+    border: #fff solid 2px;
+    text-transform: uppercase;
+}
+.cta-btn:last-child {
+    margin-left: 40px;
+}
+.cta-btn:hover{
+    background: #de2e54;
+    border: #de2e54 solid 2px;
+    color: #fff;
+}
+
+/* FOOTER SECTION STYLES */
+footer {
+    background: #222;
+    padding: 24px 0;
+}
+.footer a, .footer__container a span{
+    color: #fff;
+}
+.footer a:active, .footer__container a span:active {
+    opacity: 0.6;
+    color: #fff;
+}
