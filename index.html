@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./img/AnsorMed-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- HEADER SECTION -->
@@ -29,6 +30,7 @@
                     <li class="main-nav__item"><a href="#">Blog</a></li>
                 </ul>
             </nav>
+            <div class="main_nav_2"><i class="fas fa-bars"></i></div>
             <a href="#" class="main-btn">Qabulga yozilish</a>
         </div>
     </header>
@@ -53,7 +55,9 @@
             <div class="services__big-blog">
                 <!-- The first blog -->
                 <div class="services__blog">
-                    <img src="./img/Services_images/Hijoma.jpg" alt="" class="services__blog-img" srcset="./img/Services_images/Hijoma.jpg 1x,    ./img/Services_images/Hijoma@2x.jpg 2x" height="200" width="200">
+                    <div class="service__blog-img-container">
+                        <img src="./img/Services_images/Hijoma.jpg" alt="" class="services__blog-img" srcset="./img/Services_images/Hijoma.jpg 1x,    ./img/Services_images/Hijoma@2x.jpg 2x" height="200" width="200">
+                    </div>
                     <div class="services__text-wrapper">
                         <h3 class="services__text-wrapper-title">Hijoma</h3>
                         <p class="services__text-wrapper-content">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
@@ -61,7 +65,7 @@
                 </div>
                 <!-- The second blog -->
                 <div class="services__blog">
-                    <img src="./img/Services_images/Manual_terapiya.jpg" alt="" class="services__blog-img" srcset="./img/Services_images/Manual_terapiya.jpg 1x, ./img/Services_images/Manual_terapiya@2x.jpg 2x" height="200" width="200">
+                    <div class="service__blog-img-container"><img src="./img/Services_images/Manual_terapiya.jpg" alt="" class="services__blog-img" srcset="./img/Services_images/Manual_terapiya.jpg 1x, ./img/Services_images/Manual_terapiya@2x.jpg 2x" height="200" width="200"></div>
                     <div class="services__text-wrapper">
                         <h3 class="services__text-wrapper-title">Manual terapiya</h3>
                         <p class="services__text-wrapper-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
@@ -69,16 +73,17 @@
                 </div>
                 <!-- The third blog -->
                 <div class="services__blog">
-                    <img src="./img/Services_images/Zuluk.jpg" alt="" class="services__blog-img" srcset="./img/Services_images/Zuluk.jpg 1x,      ./img/Services_images/Zuluk@2x.jpg 2x" height="200" width="200">
-                    <div class="services__text-wrapper">
+                    <div class="service__blog-img-container">
+                        <img src="./img/Services_images/Zuluk.jpg" alt="" class="services__blog-img" srcset="./img/Services_images/Zuluk.jpg 1x,      ./img/Services_images/Zuluk@2x.jpg 2x" height="200" width="200">
+                        
+                    </div><div class="services__text-wrapper">
                         <h3 class="services__text-wrapper-title">Zuluk bilan davolash</h3>
                         <p class="services__text-wrapper-content">Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία — «davolash») — ma’lum kasalliklarni dorivor zuluklar (Hirudo medicinalis) yordamida davolash usuli. Fizioterapevtik muolaja, muqobil tibbiyotga oid sanaladi. Bunday zuluklar ushbu kichik sinf chuvchalchanglariga oid yagona tur hisoblanadi, qolganlari shifobaxsh ta’sir ko’rsatmaydi.</p>
                     </div>
                 </div>
                 <!-- The fourth blog -->
                 <div class="services__blog">
-                    <img src="./img/Services_images/Tabiiy_dori.jpg" alt="" class="services__blog-img" srcset="./img/Services_images/Tabiiy_dori.jpg 1x, ./img/Services_images/Tabiiy_dori@2x.jpg 2x" height="200" width="200">
-                    <div class="services__text-wrapper">
+                    <div class="service__blog-img-container"><img src="./img/Services_images/Tabiiy_dori.jpg" alt="" class="services__blog-img" srcset="./img/Services_images/Tabiiy_dori.jpg 1x, ./img/Services_images/Tabiiy_dori@2x.jpg 2x" height="200" width="200"></div>             <div class="services__text-wrapper">
                         <h3 class="services__text-wrapper-title">Tabiiy dori vositalari</h3>
                         <p class="services__text-wrapper-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
                     </div>
@@ -112,6 +117,7 @@
                     <li class="main-nav__item"><a href="#">Blog</a></li>
                 </ul>
             </nav>
+            <div class="main_nav_2"><i class="fas fa-bars" style="color: #fff;"></i></div>
         </div>
     </footer>
     <!-- /FOOTER SECTION -->
